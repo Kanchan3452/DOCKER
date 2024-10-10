@@ -17,8 +17,11 @@ It is a script that containing instructions to build a docker image.
 It is a storage distribution system for docker images, where you can store the images in both public and private modes.
 ## Features of Docker
 *Docker reduces the size of development by providing a smaller part of the OS via containers.
+
 *It is easier to work on the same project by different teams with the help of Containers.
+
 *Docker containers can be deployed anywhere, on any physical, or virtual machines and on the cloud.
+
 *Docker containers are lightweight so, it becomes easy to scale them
 ## What is Docker Image?
 It is a file, comprised of multiple layers, used to execute code in a Docker container. They are a set of instructions used to create docker containers. Docker Image is an executable package of software that includes everything needed to run an application. This image informs how a container should instantiate, determining which software components will run and how. Docker Container is a virtual environment that bundles application code with all the dependencies required to run the application. The application runs quickly and reliably from one computing environment to another.
