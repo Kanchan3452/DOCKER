@@ -42,3 +42,13 @@ It helps in halting the running containers gracefully shutting down the processe
 It helps in restarting the stopped containers, resuming their operations from the previous state.
 ### Docker Login:
 It helps to login in to the docker registry enabling the access to private repositories.
+
+## HOW TO INSTALL DOCKER
+To install Docker on a remote server using PuTTY, you'll first need to ensure you have access to a Linux server (like Ubuntu, CentOS, etc.) via SSH. Here's a step-by-step guide:
+#### Step 1: Connect to Your Server
+Open PuTTY.
+Enter the hostname or IP address of your server.
+Click "Open" to initiate the connection.
+Log in with your username and password.
+#### Step 2: Update Your Package Index
+sudo apt update
