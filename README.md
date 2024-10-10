@@ -52,3 +52,14 @@ Click "Open" to initiate the connection.
 Log in with your username and password.
 #### Step 2: Update Your Package Index
 sudo apt update
+#### Step 3: Install Prerequisites
+sudo apt install apt-transport-https ca-certificates curl software-properties-common
+#### Step 4: Add Docker’s Official GPG Key
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+#### Step 5: Set Up the Stable Repository
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+#### Step 6: Install Docker
+sudo apt update
+sudo apt install docker-ce
+#### Step 7: Verify Docker Installation To verify that Docker is installed correctly, run the following command:
+docker --version
