@@ -1,4 +1,3 @@
-# DOCKER
 
 ## What is Docker?
 Docker is an open-source containerization platform by which you can pack your application and all its dependencies into a standardized unit called a container. Containers are light in weight which makes them portable and they are isolated from the underlying infrastructure and from each other container. You can run the docker image as a docker container in any machine where docker is installed without depending on the operating system.
@@ -63,3 +62,4 @@ sudo apt update
 sudo apt install docker-ce
 #### Step 7: Verify Docker Installation To verify that Docker is installed correctly, run the following command:
 docker --version
+####Type the instance's IP and see Nginx default web page.# DOCKER
